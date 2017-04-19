@@ -1,0 +1,76 @@
+html { 
+  background: url(eenachtergrond.jpg) center fixed; 
+  background-size: cover;
+}
+
+div{
+    text-align: center;
+    position: fixed;
+    margin-top: -18px;
+}
+
+li {
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menubalk {
+    width: 95%;
+    height: 29px;
+    margin-left:2.5%;
+    background-color: #1ECC89;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+li:hover {
+  background-color: black;
+}
+
+
+.footer-links {
+    margin-top: 17.7%;
+    background-color: #1ECC89;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 94%;
+    margin-left: 2%;
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: -0px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

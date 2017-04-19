@@ -1,0 +1,184 @@
+html { 
+  background: url(eenachtergrond.jpg) center fixed; 
+  background-size: cover;
+}
+
+div{
+    text-align: center;
+    margin-top: -10px;
+}
+
+li {
+    border-color: black;
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    margin-left: 45%;
+} 
+
+.footer{
+    display: block;
+    bottom: 0;
+    width: 20%;
+    height: 25px;
+    color: white;
+    text-align: right;
+    margin-left: 1009px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+video {
+    margin-top: 50px;
+    margin-left: 375px;
+}
+
+h2 {
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    border: 4px solid #d63550;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.artikel1 {
+    background-color: white;
+    margin-top: -15px;
+    height: 200px;
+    border: 4px solid #d63550;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px;
+}
+
+h3 {
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    border: 4px solid #d63550;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 24px;
+}
+
+.artikel2 {
+    background-color: white;
+    margin-top: -15px;
+    height: 200px;
+    border: 4px solid #d63550;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px;
+}
+
+
+
+.mySlides {
+    margin-left: -45%;
+    height: 400px;
+    width: 600px;
+    margin-top: -8%;
+}
+
+#menubalk {
+    width: 95%;
+    height: 29px;
+    margin-left:2.5%;
+    background-color: #1ECC89;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#mamp1 {
+    color: white;
+    width: 30%;
+    height: 75px;
+    background-color: #1ECC89;
+    margin-top: 9%;
+    padding: 5px;
+    margin-left: 16px;
+    text-align: center;
+    position: relative;
+}
+
+#mamp2 {
+    color: white;
+    width: 30%;
+    height: 75px;
+    background-color: #1ECC89;
+    float: right;
+    margin: 15px;
+    margin-top: -8%;
+    padding: 5px;
+    margin-left: 1px;
+    text-align: center;
+    position: relative;
+    margin-right: 34.5%;
+    
+}
+
+#mamp3 {
+    color: white;
+    width: 30%;
+    height: 75px;
+    background-color: #1ECC89;
+    float: right;
+    margin: 10px;
+    margin-top: -8%;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    margin-right: 1.03%;
+}
+
+
+li:hover {
+  background-color: black;
+}
+
+li:a {
+    
+}
+
+.footer-links {
+    margin-top: 20%;
+    background-color: #1ECC89;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 94%;
+    margin-left: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

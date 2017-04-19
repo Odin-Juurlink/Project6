@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Project6</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+    
+    <div id="menubalk">
+        
+            
+            <li><a href="index.html" id="home">Home</a>
+            </li>
+            
+            <li><a href="contact.html">Contact</a>
+            </li>
+            
+            <li><a href="Algemene.html">Algemene info</a>
+            </li>
+            
+            <li><a href="Hosting.html">Hosting info</a>
+            </li>
+            
+            <li><a href="Cloud.html">Cloud info</a>
+            </li>
+            
+            <li><a href="Klanten.html">Klantenpagina</a>
+            </li>
+            
+            <li><a href="Social.html">Social media</a>
+            </li>
+            
+            
+        </div>
+    
+    
+    
+<h1 class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="cloud.jpg">
+  <img class="mySlides" src="server.jpg">
+  <img class="mySlides" src="iets.jpeg">
+</h1>
+
+<script>
+
+var Slider = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    Slider++;
+    if (Slider > x.length) {Slider = 1}    
+    x[Slider-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+    
+  
+
+                    <p class="footer-links">
+                        <a href="">Home</a>
+
+                        <a href="">Blog</a>
+
+                        <a href="">Pricing</a>
+
+                        <a href="">About</a>
+
+                        <a href="">Faq</a>
+
+                        <a href="">Contact</a>
+                    </p>    
+
+</body>
+</html>

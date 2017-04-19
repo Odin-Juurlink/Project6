@@ -1,0 +1,85 @@
+html { 
+    background: url(eenachtergrond.jpg) center fixed; 
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+    position: fixed;
+    margin-top: -18px;
+}
+
+li {
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menubalk {
+    width: 95%;
+    height: 29px;
+    margin-left:2%;
+    background-color: #60FF99;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -9.9%;
+}
+
+li:hover {
+    background-color: black;
+}
+
+
+.footer-links {
+    margin-top: 15%;
+    background-color: #60FF99;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 94%;
+    margin-left: 2%;
+    position: fixed;
+}
+
+h1 {
+    color: white;
+    margin-left: 45%;
+    margin-top: 10%;
+    font-size: 35px;
+    width: 105px;
+    background-color: #10CCAC;
+    padding: 5px;
+}
+
+#tekst { 
+    color: white;
+    margin-top: 0;
+    width: 80%;
+    background-color: #10CCAC;
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+#tekst2 { 
+    color: white;
+    margin-top: 0;
+    width: 80%;
+    background-color: #10CCAC;
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 5px;
+    border-color: green;
+    border: 5px;
+}
+
+
+
+
+
+
