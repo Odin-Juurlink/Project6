@@ -5,14 +5,15 @@ html {
 
 div{
     text-align: center;
-    position: fixed;
-    margin-top: -18px;
+    margin-top: -10px;
 }
 
 li {
+    border-color: black;
     display: inline;
     padding: 7px 7px 7px 7px;
     margin-right: 7px;
+    text-decoration: none;
 }
 
 a {
@@ -34,50 +35,45 @@ li:hover {
   background-color: black;
 }
 
+li:a {
+    
+}
 
 .footer-links {
-    margin-top: 17.7%;
+    margin-top: 10%;
     background-color: #1ECC89;
     padding: 10px;
     text-align: center;
     font-size: 18px;
     width: 94%;
     margin-left: 2%;
-    position: fixed;
+    
 }
 
-form {
-    text-align: center;
-    color: white;
-    font-size: 17px;
-    margin-top: -0px;
-    padding:
+.twitter-timeline {
+    height: 50px;
+    width: 100px;
+    margin-left: 699px;
+    padding: 0px;
+    margin: 0px
 }
 
-input {
-    width: 30%;
+#facebook {
+    width: 200px;
+    margin-top: 200px;
+    float: right;
+    margin-left: 40px;
 }
 
-#bericht {
-    height: 120px;
+#insta {
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 40px;
+    float: right
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#twitter {
+    width: 200px;
+    margin-top: 200px;
+    float: right;
+}

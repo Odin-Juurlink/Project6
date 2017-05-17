@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>Project6</title>
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="homeblad.css">
 <style>
 .mySlides {display:none;}
 </style>
@@ -10,9 +10,9 @@
 
     
     <div id="menubalk">
-        
+        <ul>
             
-            <li><a href="index.html" id="home">Home</a>
+            <li><a href="slider.html">Home</a>
             </li>
             
             <li><a href="contact.html">Contact</a>
@@ -34,19 +34,19 @@
             </li>
             
             
+        </ul>
         </div>
     
     
     
 <h1 class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="foto/cloud.jpg">
-  <img class="mySlides" src="foto/server.jpg">
-  <img class="mySlides" src="foto/iets.jpeg">
+  <img class="mySlides" src="Colicss1.jpg" style="width:50%">
+  <img class="mySlides" src="colicss2.jpg" style="width:50%">
+  <img class="mySlides" src="colicss3.jpg" style="width:50%">
 </h1>
 
 <script>
-
-var Slider = 0;
+var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -55,26 +55,27 @@ function carousel() {
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-    Slider++;
-    if (Slider > x.length) {Slider = 1}    
-    x[Slider-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 2 seconds
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 </script>
     
   
+    
+     <video width="500" height="300" controls>
+        <source src="linux_film.mp4" type="video/mp4">
+        </video>
+     
+    
+    
+        
+    <footer>
+        <p class="footer">© Colicss</p>
+    </footer>
 
-                  <p class="footer-links">
-                        <a href="index.html">Home</a>
-
-                        <a href="Hosting.html">Hosting pakketen</a>
-
-                        <a href="Cloud.html">Cloud pakketen</a>
-
-                        <a href="Algemene.html">Over Colicss</a>
-
-                        <a href="contact.html">Contact</a>
-                    </p>     
+    
 
 </body>
 </html>
