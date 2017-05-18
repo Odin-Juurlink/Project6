@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html>
-<title>Project6</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
-<style>
-.mySlides {display:none;}
-</style>
-<body>
+<head>
+    <META content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <LINK href="contact.css" rel="stylesheet" type="text/css" />
+    <TITLE>Colicss Contact Pagina</TITLE>
+</head>
+<body>   
 
     
     <div id="menubalk">
@@ -35,36 +34,35 @@
             
             
         </div>
+            
+    <p>* verplicht</p>
     
+    <form method="get" action="">
     
+        <label>* Voornaam</label><br>
+        <input name="naam" type="text" autofocus required />
+        <br><br>
+        
+        <label>* Telefoon <small>10 cijfers</small></label><br>
+        <input name="telefoon" type="tel" pattern="^\d{10}">
+        <br><br>
+        
+        <label>* E-mail</label><br>
+        <input name="mail" type="email" required />
+        <br><br>
+        
+        <label>Bericht</label><br>
+        <input id="bericht" name="bericht" type="text" />
+        <br><br>
+        
+        
+        
+        <input name="zenden" type="submit" value="verstuur" />
+        
+    </form>
     
-<h1 class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="foto/cloud.jpg">
-  <img class="mySlides" src="foto/server.jpg">
-  <img class="mySlides" src="foto/iets.jpeg">
-</h1>
 
-<script>
-
-var Slider = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    Slider++;
-    if (Slider > x.length) {Slider = 1}    
-    x[Slider-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 2 seconds
-}
-</script>
-    
-  
-
-                  <p class="footer-links">
+                 <p class="footer-links">
                         <a href="index.html">Home</a>
 
                         <a href="Hosting.html">Hosting pakketen</a>
@@ -74,7 +72,12 @@ function carousel() {
                         <a href="Algemene.html">Over Colicss</a>
 
                         <a href="contact.html">Contact</a>
-                    </p>     
+                    </p>    
+
+
 
 </body>
 </html>
+
+
+onsubmit="return validateForm()"

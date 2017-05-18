@@ -2,7 +2,7 @@
 <html>
 <title>Project6</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="Social.css">
 <style>
 .mySlides {display:none;}
 </style>
@@ -38,33 +38,21 @@
     
     
     
-<h1 class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="foto/cloud.jpg">
-  <img class="mySlides" src="foto/server.jpg">
-  <img class="mySlides" src="foto/iets.jpeg">
-</h1>
-
-<script>
-
-var Slider = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    Slider++;
-    if (Slider > x.length) {Slider = 1}    
-    x[Slider-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 2 seconds
-}
-</script>
     
-  
+    
+    <a class="twitter-timeline" href="https://twitter.com/hashtag/colicss" data-widget-id="854631939466293249">#colicss Tweets</a>
+            
+    
+        <a href="https://nl-nl.facebook.com/">
+        <img id="facebook"src="foto/face.png" href="https://www.facebook.com/"/></a>
 
-                  <p class="footer-links">
+        <a href="https://www.instagram.com/?hl=en">
+        <img id="insta"src="foto/insta.png"/></a>
+    
+        <a href="https://twitter.com/download?logged_out=1&lang=en">
+        <img id="twitter"src="foto/twitter.png" href="https://www.facebook.com/"/></a>
+    
+    <p class="footer-links">
                         <a href="index.html">Home</a>
 
                         <a href="Hosting.html">Hosting pakketen</a>
@@ -74,7 +62,9 @@ function carousel() {
                         <a href="Algemene.html">Over Colicss</a>
 
                         <a href="contact.html">Contact</a>
-                    </p>     
-
+                    </p>    
+    
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
 </body>
 </html>
