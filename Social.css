@@ -1,0 +1,79 @@
+html { 
+  background: url(foto/eenachtergrond.jpg) center fixed; 
+  background-size: cover;
+}
+
+div{
+    text-align: center;
+    margin-top: -10px;
+}
+
+li {
+    border-color: black;
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menubalk {
+    width: 95%;
+    height: 29px;
+    margin-left:2.5%;
+    background-color: #1ECC89;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+li:hover {
+  background-color: black;
+}
+
+li:a {
+    
+}
+
+.footer-links {
+    margin-top: 10%;
+    background-color: #1ECC89;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 94%;
+    margin-left: 2%;
+    
+}
+
+.twitter-timeline {
+    height: 50px;
+    width: 100px;
+    margin-left: 699px;
+    padding: 0px;
+    margin: 0px
+}
+
+#facebook {
+    width: 200px;
+    margin-top: 200px;
+    float: right;
+    margin-left: 40px;
+}
+
+#insta {
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 40px;
+    float: right
+}
+
+#twitter {
+    width: 200px;
+    margin-top: 200px;
+    float: right;
+}

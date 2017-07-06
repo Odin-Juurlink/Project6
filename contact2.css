@@ -37,7 +37,7 @@ li:hover {
 
 
 .footer-links {
-    margin-top: 23.7%;
+    margin-top: 17.7%;
     background-color: #1ECC89;
     padding: 10px;
     text-align: center;
@@ -97,20 +97,12 @@ input {
 }
 
 #verzendknop {
-    margin-left: 58px;
+    margin-left: 48px;
     width: 388px
 }
 
-#form4 {
-    margin-top: 10px;
-    margin-left: -14px;
-}
 
-#iets {
-    width: 379px;
-    height: 120px;
-    margin-left: -4px;
-}
+
 
 
 

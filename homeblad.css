@@ -1,5 +1,5 @@
 html { 
-  background: url(foto/eenachtergrond.jpg) center fixed; 
+  background: url(Colicss1.jpg) center fixed; 
   background-size: cover;
 }
 
@@ -9,17 +9,19 @@ div{
 }
 
 li {
+    border-radius: 25px;
     border-color: black;
+    background-color: #4b86e5;
     display: inline;
     padding: 7px 7px 7px 7px;
     margin-right: 7px;
-    text-decoration: none;
 }
 
 h1 {
     position: relative;
     top: 50px;
-    margin-left: 45%;
+    float: right;
+    margin-right: 50px;
 } 
 
 .footer{
@@ -84,84 +86,15 @@ h3 {
 
 
 .mySlides {
-    margin-left: -45%;
-    height: 400px;
-    width: 600px;
-    margin-top: -8%;
+    margin-left: -41%;
 }
 
 #menubalk {
-    width: 95%;
-    height: 29px;
-    margin-left:2.5%;
-    background-color: #1ECC89;
-    font-size: 18px;
-    text-align: center;
-    
+    width: 100%;
+    height: 20%;
+    margin-top: 1%;
+    margin-left: -1%
 }
-
-#mamp1 {
-    color: white;
-    width: 30%;
-    height: 75px;
-    background-color: #1ECC89;
-    margin-top: 9%;
-    padding: 5px;
-    margin-left: 16px;
-    text-align: center;
-    position: relative;
-}
-
-#mamp2 {
-    color: white;
-    width: 30%;
-    height: 75px;
-    background-color: #1ECC89;
-    float: right;
-    margin: 15px;
-    margin-top: -8%;
-    padding: 5px;
-    margin-left: 1px;
-    text-align: center;
-    position: relative;
-    margin-right: 34.5%;
-    
-}
-
-#mamp3 {
-    color: white;
-    width: 30%;
-    height: 75px;
-    background-color: #1ECC89;
-    float: right;
-    margin: 10px;
-    margin-top: -8%;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    margin-right: 1.03%;
-}
-
-
-li:hover {
-  background-color: black;
-}
-
-li:a {
-    
-}
-
-.footer-links {
-    margin-top: 20%;
-    background-color: #1ECC89;
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
-    width: 94%;
-    margin-left: 2%;
-    
-}
-
 
 
 

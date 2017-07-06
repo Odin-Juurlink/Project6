@@ -45,17 +45,18 @@ Telefoon:<input id="zenden2v" type="text" name="zenden2">
 </form>
     
 <form name="Form3" id="zenden3">
-E-mail:<input id="zenden3v" type="text" name="zenden3">
+E-mail:<input id="zenden3v" type="email" name="zenden3">
 </form>
     
-<form id="form4" method="get" name="form" onsubmit="return validateForm();" action="#">
-* Bericht:<input type="text" name="fname" id="iets" />
-    <br><br>
-    <input id="verzendknop" type="button" value="Verzenden" onclick='validateForm()'/>
+<form name="Form4" id="zenden4" action=""
+onsubmit="return (FormValidatie1() & FormValidatie2() & FormValidatie3() & FormValidatie4())" method="get">
+Bericht:<input id="zenden4v" type="text" name="zenden4">
+<br><br>
+    
+    
+    <input id="verzendknop" type="submit" value="Verzenden">
+    
 </form>
-    
-    
-    
     
 
                  <p class="footer-links">
@@ -75,15 +76,37 @@ E-mail:<input id="zenden3v" type="text" name="zenden3">
 </body>
 </html>
 
-<script type="text/javascript">
-    function validateForm() {
-        var x = document.getElementById('iets').value;
-        if (x == null || x == 0 || x == "0") {
-            alert("U heeft nog geen bericht ingevoerd");
-            return false;
-        }
-        else
-            document.form.submit();
+<script>
+function FormValidatie1() {
+    var x = document.forms["Form1"]["zenden1"].value;
+    if (x == "") {
+        alert("Vul uw naam in aub.");
+        return false;
     }
+}
+  
+function FormValidatie2() {
+    var x = document.forms["Form2"]["zenden2"].value;
+    if (x == "") {
+        alert("Vul uw telefoonnummer in aub.");
+        return false;
+    }
+}
+    
+function FormValidatie3() {
+    var x = document.forms["Form3"]["zenden3"].value;
+    if (x == "") {
+        alert("Vul uw E-mail in aub.");
+        return false;
+    }
+}
+    
+function FormValidatie4() {
+    var x = document.forms["Form4"]["zenden4"].value;
+    if (x == "") {
+        alert("Vul uw Bericht in aub.");
+        return false;
+    }
+}
 
 </script>
